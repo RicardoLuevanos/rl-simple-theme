@@ -1,0 +1,26 @@
+{
+  "name": "RL Simple Theme",
+  "version": "1.0.0",
+	"description": "Personal Wordpress blog theme based on http://underscores.me",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/rluevanos/rl-simple-theme.git"
+	},
+	"keywords": [
+		"wordpress",
+		"theme"
+	],
+  "devDependencies": {
+    "autoprefixer": "~6.1.0",
+    "grunt": "~0.4.5",
+    "grunt-sass": "1.1.0",
+    "grunt-postcss": "~0.7.1",
+    "grunt-contrib-cssmin": "~0.14.0",
+    "grunt-contrib-compass": "~1.0.4",
+    "grunt-contrib-jshint": "~0.12.0",
+    "grunt-contrib-concat": "~0.5.1",
+    "grunt-contrib-uglify": "~0.11.1",
+    "grunt-contrib-watch": "~0.6.1"
+  },
+	"license": "MIT"
+}
