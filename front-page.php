@@ -27,12 +27,6 @@ get_header(); ?>
 					<?php echo the_content(); ?>
 				</section>
 			<?php endwhile; endif; ?>
-	
-			<?php if ( get_post_meta( get_queried_object_id(), 'quote', true ) ) : ?>			
-				<section>
-					<?php echo get_post_meta( get_queried_object_id(), 'quote', true ) ?>
-				</section>
-			<?php endif; ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
