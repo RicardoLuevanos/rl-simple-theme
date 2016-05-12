@@ -17,6 +17,7 @@
 		<div class="entry-meta">
 			<?php rl_simple_theme_posted_on(); ?>
 		</div><!-- .entry-meta -->
+
 	</header><!-- .entry-header -->
 </article><!-- #post-## -->
 
