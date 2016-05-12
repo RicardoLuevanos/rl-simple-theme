@@ -37,20 +37,6 @@ function rl_simple_theme_customize_register( $wp_customize ) {
 		'section' => 'logo_text_section', 
 		'type' => 'text' 
 	) );
-
-	// Twitter Settings
-	$wp_customize->add_section( 'twitter_handle_section', array( 
-		'title' => 'Twitter Handle',
-		'description' => 'Using a twitter handle will allow readers to tweet, retweet, or reply to posts via Twitter.com'
-	) );
-	$wp_customize->add_setting( 'twitter_handle_setting', array( 
-		'default' => '' 
-	) );
-	$wp_customize->add_control( 'twitter_handle_setting', array( 
-		'label' => 'Twitter Handle ( without \'@\' )', 
-		'section' => 'twitter_handle_section', 
-		'type' => 'text' 
-	) );
 }
 add_action( 'customize_register', 'rl_simple_theme_customize_register' );
 
