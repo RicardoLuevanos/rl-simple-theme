@@ -52,7 +52,7 @@
 
 	article {
 		margin: 0 !important;
-		padding: 5px;
+		padding: 7px 6px 6px;
 		cursor: pointer;
 		border-bottom: 1px solid #eee;
 
@@ -83,9 +83,11 @@
 			font-weight: 300;
 
 			time {
+				padding: 0 0 0 10px;
 				float: right;
 				font-size: .875rem;
-				line-height: 29px;
+				line-height: 26px;
+				border-left: 1px solid #eee;
 			}
 		}
 	}
