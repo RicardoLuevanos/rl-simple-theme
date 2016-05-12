@@ -24,7 +24,6 @@
 
 		&:hover {
 			background-color: #399393;
-			border-bottom: 1px solid #399393;
 
 			a {
 				color: #fff;
@@ -70,11 +69,10 @@
 
 		article {
 			&:hover {
-				background-color: #fff;
-				border-bottom: 1px solid #eee;
+				background-color: #399393;
 
 				a {
-					color: #399393;
+					color: #fff;
 				}
 			}
 
