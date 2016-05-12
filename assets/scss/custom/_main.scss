@@ -15,9 +15,10 @@ body {
 	margin: 0 auto;
 }
 
-a, a:active, a:visited, a:hover {
+a, a:active, a:visited, a:hover, a:focus {
 	color: #399393;
 	text-decoration: none;
+	outline: none;
 }
 
 h1, h2, h3 {
